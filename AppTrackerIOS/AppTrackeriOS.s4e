@@ -1,0 +1,33 @@
+callbacks
+
+include:
+#include <s3eTypes.h>
+
+
+
+enum AppTrackeriOSCallback {
+	APPTRACKERIOS_MODULELOADED,
+	APPTRACKERIOS_MODULEFAILED,
+	APPTRACKERIOS_MODULECLOSED,
+	APPTRACKERIOS_MODULECACHED,
+	APPTRACKERIOS_MODULECLICKED,
+	APPTRACKERIOS_MEDIAFINISHED,
+	APPTRACKERIOS_CALLBACK_MAX
+};
+
+functions:
+s3eResult AppTrackeriOS_startSession(const char* apiKey) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_closeSession() S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_event(const char* eventName) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_eventWithValue(const char* eventName, const char* valueString) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_loadModule(const char* location) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_loadModuleToCache(const char* location_code) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_destroyModule() S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_fixAdOrientation(int landscape_portrait_or_auto) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_setAgeRange(const char* ageRange) S3E_RESULT_ERROR run_on_os_thread
+s3eResult AppTrackeriOS_setGender(const char* gender) S3E_RESULT_ERROR run_on_os_thread
+bool AppTrackeriOS_isAdReady(const char* placement) S3E_FALSE
+
+
+
+

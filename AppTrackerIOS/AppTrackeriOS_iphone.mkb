@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the AppTrackeriOS extension on iphone
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/libAppTrackeriOS.a"
+    output-name-debug="lib/iphone/libAppTrackeriOS_d.a"
+}
+define S3E_BUILD_EXT
+
+subproject AppTrackeriOS_build

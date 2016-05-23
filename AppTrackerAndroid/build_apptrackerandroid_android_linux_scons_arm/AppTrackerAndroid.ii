@@ -1,0 +1,244 @@
+# 1 "C:\\Marmalade\\7.7\\extensions\\AppTrackerAndroid\\source\\generic\\AppTrackerAndroid.cpp"
+# 1 "c:\\Marmalade\\7.7\\extensions\\AppTrackerAndroid\\build_apptrackerandroid_android_linux_scons_arm//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "./temp_defines_debug.h" 1
+# 1 "<command-line>" 2
+# 1 "C:\\Marmalade\\7.7\\extensions\\AppTrackerAndroid\\source\\generic\\AppTrackerAndroid.cpp"
+# 13 "C:\\Marmalade\\7.7\\extensions\\AppTrackerAndroid\\source\\generic\\AppTrackerAndroid.cpp"
+# 1 "../source/h/AppTrackerAndroid_internal.h" 1
+# 18 "../source/h/AppTrackerAndroid_internal.h"
+# 1 "../../../s3e/h/s3eTypes.h" 1
+# 35 "../../../s3e/h/s3eTypes.h"
+typedef unsigned char s3e_uint8_t;
+typedef signed char s3e_int8_t;
+typedef unsigned short int s3e_uint16_t;
+typedef signed short int s3e_int16_t;
+typedef unsigned int s3e_uint32_t;
+typedef signed int s3e_int32_t;
+# 60 "../../../s3e/h/s3eTypes.h"
+    typedef unsigned long long s3e_uint64_t;
+    typedef signed long long s3e_int64_t;
+
+
+
+
+
+typedef unsigned long s3e_size_t;
+typedef long int s3e_ssize_t;
+# 85 "../../../s3e/h/s3eTypes.h"
+typedef s3e_uint64_t uint64_t;
+typedef s3e_int64_t int64_t;
+typedef s3e_uint32_t uint32_t;
+typedef s3e_int32_t int32_t;
+typedef s3e_uint16_t uint16_t;
+typedef s3e_int16_t int16_t;
+typedef s3e_uint8_t uint8_t;
+typedef s3e_int8_t int8_t;
+# 107 "../../../s3e/h/s3eTypes.h"
+    typedef int intptr_t;
+    typedef unsigned int uintptr_t;
+# 153 "../../../s3e/h/s3eTypes.h"
+typedef unsigned int uint;
+typedef unsigned short int ushort;
+typedef unsigned long int ulong;
+typedef unsigned char uint8;
+typedef signed char int8;
+
+
+typedef int64_t int64;
+typedef uint64_t uint64;
+
+
+
+
+typedef unsigned int uint32;
+
+
+
+
+
+
+typedef signed int int32;
+
+
+
+
+
+
+typedef uint16_t uint16;
+
+
+
+
+typedef int16_t int16;
+# 266 "../../../s3e/h/s3eTypes.h"
+typedef enum s3eResult
+{
+    S3E_RESULT_SUCCESS = 0,
+    S3E_RESULT_ERROR = 1
+} s3eResult;
+
+
+
+
+typedef uint8 s3eBool;
+# 286 "../../../s3e/h/s3eTypes.h"
+typedef unsigned short s3eWChar;
+# 296 "../../../s3e/h/s3eTypes.h"
+typedef int32 (*s3eCallback) (void* systemData, void* userData);
+# 19 "../source/h/AppTrackerAndroid_internal.h" 2
+# 1 "../h/AppTrackerAndroid.h" 1
+# 21 "../h/AppTrackerAndroid.h"
+enum AppTrackerAndroidCallback {
+ APPTRACKERANDROID_MODULELOADED,
+ APPTRACKERANDROID_MODULEFAILED,
+ APPTRACKERANDROID_MODULECLOSED,
+ APPTRACKERANDROID_MODULECACHED,
+ APPTRACKERANDROID_MODULECLICKED,
+ APPTRACKERANDROID_MEDIAFINISHED,
+ APPTRACKERANDROID_CALLBACK_MAX
+};
+
+extern "C" {
+
+
+
+
+
+s3eBool AppTrackerAndroidAvailable();
+# 54 "../h/AppTrackerAndroid.h"
+s3eResult AppTrackerAndroidRegister(AppTrackerAndroidCallback cbid, s3eCallback fn, void* userData);
+# 68 "../h/AppTrackerAndroid.h"
+s3eResult AppTrackerAndroidUnRegister(AppTrackerAndroidCallback cbid, s3eCallback fn);
+
+s3eResult startSession(const char* api_key);
+
+s3eResult closeSession();
+
+s3eResult pause();
+
+s3eResult resume();
+
+s3eResult event(const char* event_name);
+
+s3eResult eventWithValue(const char* event_name, int event_value);
+
+s3eResult loadModule(const char* location_code,const char* userData);
+
+s3eResult loadModuleToCache(const char* location_code,const char* userData);
+
+s3eResult destroyModule();
+
+s3eResult fixAdOrientation(int landscape_portrait_or_auto);
+
+
+}
+# 20 "../source/h/AppTrackerAndroid_internal.h" 2
+# 1 "../source/h/AppTrackerAndroid_autodefs.h" 1
+# 21 "../source/h/AppTrackerAndroid_internal.h" 2
+
+
+
+
+
+
+
+s3eResult AppTrackerAndroidInit();
+
+
+
+
+s3eResult AppTrackerAndroidInit_platform();
+
+
+
+
+
+void AppTrackerAndroidTerminate();
+
+
+
+
+void AppTrackerAndroidTerminate_platform();
+s3eResult startSession_platform(const char* api_key);
+
+s3eResult closeSession_platform();
+
+s3eResult pause_platform();
+
+s3eResult resume_platform();
+
+s3eResult event_platform(const char* event_name);
+
+s3eResult eventWithValue_platform(const char* event_name, int event_value);
+
+s3eResult loadModule_platform(const char* location_code, const char* userData);
+
+s3eResult loadModuleToCache_platform(const char* location_code, const char* userData);
+
+s3eResult destroyModule_platform();
+
+s3eResult fixAdOrientation_platform(int landscape_portrait_or_auto);
+# 14 "C:\\Marmalade\\7.7\\extensions\\AppTrackerAndroid\\source\\generic\\AppTrackerAndroid.cpp" 2
+s3eResult AppTrackerAndroidInit()
+{
+
+    return AppTrackerAndroidInit_platform();
+}
+
+void AppTrackerAndroidTerminate()
+{
+
+    AppTrackerAndroidTerminate_platform();
+}
+
+s3eResult startSession(const char* api_key)
+{
+ return startSession_platform(api_key);
+}
+
+s3eResult closeSession()
+{
+ return closeSession_platform();
+}
+
+s3eResult pause()
+{
+ return pause_platform();
+}
+
+s3eResult resume()
+{
+ return resume_platform();
+}
+
+s3eResult event(const char* event_name)
+{
+ return event_platform(event_name);
+}
+
+s3eResult eventWithValue(const char* event_name, int event_value)
+{
+ return eventWithValue_platform(event_name, event_value);
+}
+
+s3eResult loadModule(const char* location_code, const char* userData)
+{
+ return loadModule_platform(location_code, userData);
+}
+
+s3eResult loadModuleToCache(const char* location_code, const char* userData)
+{
+ return loadModuleToCache_platform(location_code, userData);
+}
+
+s3eResult destroyModule()
+{
+ return destroyModule_platform();
+}
+
+s3eResult fixAdOrientation(int landscape_portrait_or_auto)
+{
+ return fixAdOrientation_platform(landscape_portrait_or_auto);
+}

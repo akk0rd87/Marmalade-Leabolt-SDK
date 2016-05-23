@@ -1,0 +1,463 @@
+Archive member included because of file (symbol)
+
+C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                              debug\AppTrackerAndroid_platform.os (s3eEdkThreadRunOnOS)
+C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                              debug\AppTrackerAndroid_platform.os (IwDebugTraceIsChannelOn)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+                              C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o) (__aeabi_ldivmod)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__aeabi_unwind_cpp_pr0)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o) (restore_core_regs)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__divdi3)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__udivdi3)
+c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+                              c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o) (__aeabi_uidiv)
+
+Discarded input sections
+
+ .text          0x00000000       0x34 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00000000        0x0 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .group         0x00000000        0x8 debug\AppTrackerAndroid_platform.os
+ .text          0x00000000        0x0 debug\AppTrackerAndroid_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 debug\AppTrackerAndroid_platform.os
+ .text          0x00000000        0x0 debug\AppTrackerAndroid.os
+ .data          0x00000000        0x0 debug\AppTrackerAndroid.os
+ .bss           0x00000000        0x0 debug\AppTrackerAndroid.os
+ .note.GNU-stack
+                0x00000000        0x0 debug\AppTrackerAndroid.os
+ .text          0x00000000        0x0 debug\AppTrackerAndroid_register.os
+ .data          0x00000000        0x0 debug\AppTrackerAndroid_register.os
+ .bss           0x00000000        0x0 debug\AppTrackerAndroid_register.os
+ .note.GNU-stack
+                0x00000000        0x0 debug\AppTrackerAndroid_register.os
+ .text          0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000       0x30 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000       0x30 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text          0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .data          0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugClearConfigCache
+                0x00000000       0x80 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertIsChannelOn
+                0x00000000      0x1ec C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertShow
+                0x00000000      0x2e8 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetSolution
+                0x00000000       0xb4 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetMessage
+                0x00000000       0xfc C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwAssertRegisterTextCallback
+                0x00000000       0x1c C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwAssertRegisterCallback
+                0x00000000       0x1c C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugTraceDisable
+                0x00000000       0x10 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugTraceChannelSwitch
+                0x00000000      0x1e4 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugErrorRegisterCallback
+                0x00000000       0x1c C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugErrorShow
+                0x00000000      0x108 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetUID
+                0x00000000       0x14 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .ARM.extab     0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x0 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .data          0x00000000        0x0 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .bss           0x00000000        0x0 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034      0x100
+
+.interp         0x00000134       0x13
+ ** fill        0x00000134       0x13
+
+.dynsym         0x00000148      0x5b0
+ ** dynsym      0x00000148      0x5b0
+
+.dynstr         0x000006f8      0x6c1
+ ** string table
+                0x000006f8      0x6c1
+
+.hash           0x00000dbc      0x280
+ ** hash        0x00000dbc      0x280
+
+.rel.dyn        0x0000103c      0x138
+ ** dynamic relocs
+                0x0000103c      0x138
+
+.rel.plt        0x00001174       0xb8
+ ** dynamic relocs
+                0x00001174       0xb8
+
+.plt            0x0000122c      0x128
+ ** PLT         0x0000122c      0x128
+
+.text           0x00001354     0x3d40
+ .text.exit     0x00001354       0x10 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00001354                __on_dlclose
+ .text.startup._GLOBAL__sub_I_IwDebug.cpp
+                0x00001364       0x88 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text._ZN7_JNIEnv9FindClassEPKc
+                0x000013ec       0x38 debug\AppTrackerAndroid_platform.os
+                0x000013ec                _JNIEnv::FindClass(char const*)
+ .text._ZN7_JNIEnv17ExceptionOccurredEv
+                0x00001424       0x30 debug\AppTrackerAndroid_platform.os
+                0x00001424                _JNIEnv::ExceptionOccurred()
+ .text._ZN7_JNIEnv17ExceptionDescribeEv
+                0x00001454       0x28 debug\AppTrackerAndroid_platform.os
+                0x00001454                _JNIEnv::ExceptionDescribe()
+ .text._ZN7_JNIEnv14ExceptionClearEv
+                0x0000147c       0x28 debug\AppTrackerAndroid_platform.os
+                0x0000147c                _JNIEnv::ExceptionClear()
+ .text._ZN7_JNIEnv12NewGlobalRefEP8_jobject
+                0x000014a4       0x38 debug\AppTrackerAndroid_platform.os
+                0x000014a4                _JNIEnv::NewGlobalRef(_jobject*)
+ .text._ZN7_JNIEnv15DeleteGlobalRefEP8_jobject
+                0x000014dc       0x30 debug\AppTrackerAndroid_platform.os
+                0x000014dc                _JNIEnv::DeleteGlobalRef(_jobject*)
+ .text._ZN7_JNIEnv14DeleteLocalRefEP8_jobject
+                0x0000150c       0x30 debug\AppTrackerAndroid_platform.os
+                0x0000150c                _JNIEnv::DeleteLocalRef(_jobject*)
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x0000153c       0x58 debug\AppTrackerAndroid_platform.os
+                0x0000153c                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_
+                0x00001594       0x48 debug\AppTrackerAndroid_platform.os
+                0x00001594                _JNIEnv::GetMethodID(_jclass*, char const*, char const*)
+ .text._ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x000015dc       0x58 debug\AppTrackerAndroid_platform.os
+                0x000015dc                _JNIEnv::CallIntMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv12NewStringUTFEPKc
+                0x00001634       0x38 debug\AppTrackerAndroid_platform.os
+                0x00001634                _JNIEnv::NewStringUTF(char const*)
+ .text._ZN7_JNIEnv15RegisterNativesEP7_jclassPK15JNINativeMethodi
+                0x0000166c       0x48 debug\AppTrackerAndroid_platform.os
+                0x0000166c                _JNIEnv::RegisterNatives(_jclass*, JNINativeMethod const*, int)
+ .text._ZN7_JavaVM6GetEnvEPPvi
+                0x000016b4       0x40 debug\AppTrackerAndroid_platform.os
+                0x000016b4                _JavaVM::GetEnv(void**, int)
+ .text._ZL15s3eEdkJNIGetEnvv
+                0x000016f4       0x40 debug\AppTrackerAndroid_platform.os
+ .text._ZL27s3eEdkAndroidFindClass_realPKc
+                0x00001734       0x8c debug\AppTrackerAndroid_platform.os
+ .text._ZL22s3eEdkAndroidFindClassPKc
+                0x000017c0       0x38 debug\AppTrackerAndroid_platform.os
+ .text._Z30AppTrackerAndroidInit_platformv
+                0x000017f8      0x5c8 debug\AppTrackerAndroid_platform.os
+                0x000017f8                AppTrackerAndroidInit_platform()
+ .text._Z35AppTrackerAndroidTerminate_platformv
+                0x00001dc0        0x4 debug\AppTrackerAndroid_platform.os
+                0x00001dc0                AppTrackerAndroidTerminate_platform()
+ .text._Z21startSession_platformPKc
+                0x00001dc4       0x68 debug\AppTrackerAndroid_platform.os
+                0x00001dc4                startSession_platform(char const*)
+ .text._Z21closeSession_platformv
+                0x00001e2c       0x50 debug\AppTrackerAndroid_platform.os
+                0x00001e2c                closeSession_platform()
+ .text._Z14pause_platformv
+                0x00001e7c       0x50 debug\AppTrackerAndroid_platform.os
+                0x00001e7c                pause_platform()
+ .text._Z15resume_platformv
+                0x00001ecc       0x50 debug\AppTrackerAndroid_platform.os
+                0x00001ecc                resume_platform()
+ .text._Z14event_platformPKc
+                0x00001f1c       0x68 debug\AppTrackerAndroid_platform.os
+                0x00001f1c                event_platform(char const*)
+ .text._Z23eventWithValue_platformPKci
+                0x00001f84       0x74 debug\AppTrackerAndroid_platform.os
+                0x00001f84                eventWithValue_platform(char const*, int)
+ .text._Z19loadModule_platformPKcS0_
+                0x00001ff8       0x84 debug\AppTrackerAndroid_platform.os
+                0x00001ff8                loadModule_platform(char const*, char const*)
+ .text._Z26loadModuleToCache_platformPKcS0_
+                0x0000207c       0x84 debug\AppTrackerAndroid_platform.os
+                0x0000207c                loadModuleToCache_platform(char const*, char const*)
+ .text._Z22destroyModule_platformv
+                0x00002100       0x50 debug\AppTrackerAndroid_platform.os
+                0x00002100                destroyModule_platform()
+ .text._Z25fixAdOrientation_platformi
+                0x00002150       0x58 debug\AppTrackerAndroid_platform.os
+                0x00002150                fixAdOrientation_platform(int)
+ .text._Z40AppTrackerAndroid_onModuleLoadedCallbackP7_JNIEnvP8_jobject
+                0x000021a8       0x50 debug\AppTrackerAndroid_platform.os
+                0x000021a8                AppTrackerAndroid_onModuleLoadedCallback(_JNIEnv*, _jobject*)
+ .text._Z40AppTrackerAndroid_onModuleClosedCallbackP7_JNIEnvP8_jobject
+                0x000021f8       0x50 debug\AppTrackerAndroid_platform.os
+                0x000021f8                AppTrackerAndroid_onModuleClosedCallback(_JNIEnv*, _jobject*)
+ .text._Z40AppTrackerAndroid_onModuleFailedCallbackP7_JNIEnvP8_jobject
+                0x00002248       0x50 debug\AppTrackerAndroid_platform.os
+                0x00002248                AppTrackerAndroid_onModuleFailedCallback(_JNIEnv*, _jobject*)
+ .text._Z40AppTrackerAndroid_onModuleCachedCallbackP7_JNIEnvP8_jobject
+                0x00002298       0x50 debug\AppTrackerAndroid_platform.os
+                0x00002298                AppTrackerAndroid_onModuleCachedCallback(_JNIEnv*, _jobject*)
+ .text._Z41AppTrackerAndroid_onModuleClickedCallbackP7_JNIEnvP8_jobject
+                0x000022e8       0x50 debug\AppTrackerAndroid_platform.os
+                0x000022e8                AppTrackerAndroid_onModuleClickedCallback(_JNIEnv*, _jobject*)
+ .text._Z41AppTrackerAndroid_onMediaFinishedCallbackP7_JNIEnvP8_jobject
+                0x00002338       0x50 debug\AppTrackerAndroid_platform.os
+                0x00002338                AppTrackerAndroid_onMediaFinishedCallback(_JNIEnv*, _jobject*)
+ .text._Z21AppTrackerAndroidInitv
+                0x00002388       0x14 debug\AppTrackerAndroid.os
+                0x00002388                AppTrackerAndroidInit()
+ .text._Z26AppTrackerAndroidTerminatev
+                0x0000239c        0xc debug\AppTrackerAndroid.os
+                0x0000239c                AppTrackerAndroidTerminate()
+ .text.startSession
+                0x000023a8       0x24 debug\AppTrackerAndroid.os
+                0x000023a8                startSession
+ .text.closeSession
+                0x000023cc       0x14 debug\AppTrackerAndroid.os
+                0x000023cc                closeSession
+ .text.pause    0x000023e0       0x14 debug\AppTrackerAndroid.os
+                0x000023e0                pause
+ .text.resume   0x000023f4       0x14 debug\AppTrackerAndroid.os
+                0x000023f4                resume
+ .text.event    0x00002408       0x24 debug\AppTrackerAndroid.os
+                0x00002408                event
+ .text.eventWithValue
+                0x0000242c       0x2c debug\AppTrackerAndroid.os
+                0x0000242c                eventWithValue
+ .text.loadModule
+                0x00002458       0x2c debug\AppTrackerAndroid.os
+                0x00002458                loadModule
+ .text.loadModuleToCache
+                0x00002484       0x2c debug\AppTrackerAndroid.os
+                0x00002484                loadModuleToCache
+ .text.destroyModule
+                0x000024b0       0x14 debug\AppTrackerAndroid.os
+                0x000024b0                destroyModule
+ .text.fixAdOrientation
+                0x000024c4       0x24 debug\AppTrackerAndroid.os
+                0x000024c4                fixAdOrientation
+ .text._ZL17startSession_wrapPKc
+                0x000024e8       0xa0 debug\AppTrackerAndroid_register.os
+ .text._ZL17closeSession_wrapv
+                0x00002588       0x90 debug\AppTrackerAndroid_register.os
+ .text._ZL10pause_wrapv
+                0x00002618       0x90 debug\AppTrackerAndroid_register.os
+ .text._ZL11resume_wrapv
+                0x000026a8       0x90 debug\AppTrackerAndroid_register.os
+ .text._ZL10event_wrapPKc
+                0x00002738       0xa0 debug\AppTrackerAndroid_register.os
+ .text._ZL19eventWithValue_wrapPKci
+                0x000027d8       0xa8 debug\AppTrackerAndroid_register.os
+ .text._ZL15loadModule_wrapPKcS0_
+                0x00002880       0xa8 debug\AppTrackerAndroid_register.os
+ .text._ZL22loadModuleToCache_wrapPKcS0_
+                0x00002928       0xa8 debug\AppTrackerAndroid_register.os
+ .text._ZL18destroyModule_wrapv
+                0x000029d0       0x90 debug\AppTrackerAndroid_register.os
+ .text._ZL21fixAdOrientation_wrapi
+                0x00002a60       0xa0 debug\AppTrackerAndroid_register.os
+ .text.AppTrackerAndroidRegister
+                0x00002b00       0x50 debug\AppTrackerAndroid_register.os
+                0x00002b00                AppTrackerAndroidRegister
+ .text.AppTrackerAndroidUnRegister
+                0x00002b50       0x44 debug\AppTrackerAndroid_register.os
+                0x00002b50                AppTrackerAndroidUnRegister
+ .text._Z28AppTrackerAndroidRegisterExtv
+                0x00002b94      0x1b8 debug\AppTrackerAndroid_register.os
+                0x00002b94                AppTrackerAndroidRegisterExt()
+ .text.RegisterExt
+                0x00002d4c        0xc debug\AppTrackerAndroid_register.os
+                0x00002d4c                RegisterExt
+ .text.s3eEdkThreadRunOnOS
+                0x00002d58       0x30 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0x00002d58                s3eEdkThreadRunOnOS
+ .text.IwDebugTraceIsChannelOn
+                0x00002d88      0x27c C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00002d88                IwDebugTraceIsChannelOn
+ .text.IwDebugTraceSetTraceChannel
+                0x00003004       0x1c C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00003004                IwDebugTraceSetTraceChannel
+ .text.IwDebugTraceLineVPrintf
+                0x00003020       0xfc C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00003020                IwDebugTraceLineVPrintf
+ .text.IwDebugTraceLinePrintf
+                0x0000311c       0x30 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x0000311c                IwDebugTraceLinePrintf
+ .text          0x0000314c       0x44 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+                0x0000314c                __aeabi_ldivmod
+ .text          0x00003190       0x10 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+                0x00003190                __aeabi_idiv0
+                0x00003190                __aeabi_ldiv0
+ .text          0x000031a0       0x78 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+                0x000031a0                __gnu_ldivmod_helper
+                0x000031dc                __gnu_uldivmod_helper
+ .text          0x00003218      0xeec c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+                0x00003d94                __aeabi_unwind_cpp_pr0
+                0x00003d9c                __aeabi_unwind_cpp_pr1
+                0x00003da4                __aeabi_unwind_cpp_pr2
+                0x00003650                _Unwind_GetCFA
+                0x00003658                __gnu_Unwind_RaiseException
+                0x000036fc                __gnu_Unwind_ForcedUnwind
+                0x00003718                __gnu_Unwind_Resume
+                0x0000378c                __gnu_Unwind_Resume_or_Rethrow
+                0x000037ac                _Unwind_Complete
+                0x000037b0                _Unwind_DeleteException
+                0x000037d0                _Unwind_VRS_Get
+                0x00003854                _Unwind_VRS_Set
+                0x000038dc                __gnu_Unwind_Backtrace
+                0x00003dac                _Unwind_VRS_Pop
+ .text          0x00004104      0x1a8 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+                0x00004104                __restore_core_regs
+                0x00004104                restore_core_regs
+                0x00004118                __gnu_Unwind_Restore_VFP
+                0x00004120                __gnu_Unwind_Save_VFP
+                0x00004128                __gnu_Unwind_Restore_VFP_D
+                0x00004130                __gnu_Unwind_Save_VFP_D
+                0x00004138                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00004140                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00004148                __gnu_Unwind_Restore_WMMXD
+                0x0000418c                __gnu_Unwind_Save_WMMXD
+                0x000041d0                __gnu_Unwind_Restore_WMMXC
+                0x000041e4                __gnu_Unwind_Save_WMMXC
+                0x000041f8                ___Unwind_RaiseException
+                0x000041f8                _Unwind_RaiseException
+                0x0000421c                ___Unwind_Resume
+                0x0000421c                _Unwind_Resume
+                0x00004240                ___Unwind_Resume_or_Rethrow
+                0x00004240                _Unwind_Resume_or_Rethrow
+                0x00004264                ___Unwind_ForcedUnwind
+                0x00004264                _Unwind_ForcedUnwind
+                0x00004288                ___Unwind_Backtrace
+                0x00004288                _Unwind_Backtrace
+ .text          0x000042ac      0x484 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+                0x00004338                __gnu_unwind_execute
+                0x000046b4                __gnu_unwind_frame
+                0x000046f4                _Unwind_GetRegionStart
+                0x00004704                _Unwind_GetLanguageSpecificData
+                0x00004720                _Unwind_GetDataRelBase
+                0x00004728                _Unwind_GetTextRelBase
+ .text          0x00004730      0x498 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+                0x00004730                __divdi3
+ .text          0x00004bc8      0x404 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+                0x00004bc8                __udivdi3
+ .text          0xffffffffffffffff       0xc8 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+                0x00004fcc                __udivsi3
+                0x00004fcc                __aeabi_uidiv
+                0x00005074                __aeabi_uidivmod
+
+.rodata         0x00005094      0x57a
+ .rodata        0x00005094      0x1d0 debug\AppTrackerAndroid_platform.os
+ .rodata        0x00005264      0x290 debug\AppTrackerAndroid_register.os
+ ** merge strings
+                0x000054f4      0x11a
+
+.ARM.extab      0x00005610       0x48
+ .ARM.extab     0x00005610        0xc c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .ARM.extab     0x0000561c        0xc c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00005628       0x30 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+
+.ARM.exidx      0x00005658      0x128
+ .ARM.exidx     0x00005658        0x8 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .ARM.exidx     0xffffffffffffffff       0x10 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .ARM.exidx     0xffffffffffffffff       0xd8 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ ** ARM cantunwind
+                0x00005718        0x8
+ .ARM.exidx     0x00005720       0x48 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .ARM.exidx     0x00005768        0x8 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00005770        0x8 c:/instruments/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ ** ARM cantunwind
+                0x00005778        0x8
+
+.fini_array     0x00006e5c        0x8
+ .fini_array    0x00006e5c        0x4 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00006e60        0x4 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.init_array     0x00006e64        0x8
+ .init_array    0x00006e64        0x4 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .init_array    0x00006e68        0x4 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.dynamic        0x00006e6c       0xe0
+ ** dynamic     0x00006e6c       0xe0
+
+.got            0x00006f4c       0xb4
+ ** GOT         0x00006f4c       0x4c
+ ** GOT PLT     0x00006f98       0x68
+
+.data           0x00007000       0x4c
+ .data          0x00007000        0x4 C:/Instruments/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00007000                __dso_handle
+ .data          0x00007004       0x48 debug\AppTrackerAndroid_platform.os
+
+.bss            0x0000704c     0x1a54
+ .bss           0x0000704c       0x2c debug\AppTrackerAndroid_platform.os
+ .bss           0x00007078     0x1a28 C:\Marmalade\7.7\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00007078                g_DebugGlobals

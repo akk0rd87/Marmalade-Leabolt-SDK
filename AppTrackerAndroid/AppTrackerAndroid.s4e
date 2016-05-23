@@ -1,0 +1,27 @@
+callbacks
+
+include:
+#include <s3eTypes.h>
+
+enum AppTrackerAndroidCallback {
+	APPTRACKERANDROID_MODULELOADED,
+	APPTRACKERANDROID_MODULEFAILED,
+	APPTRACKERANDROID_MODULECLOSED,
+	APPTRACKERANDROID_MODULECACHED,
+	APPTRACKERANDROID_MODULECLICKED,
+	APPTRACKERANDROID_MEDIAFINISHED,
+	APPTRACKERANDROID_CALLBACK_MAX
+};
+
+
+functions:
+s3eResult startSession(const char* api_key) S3E_RESULT_ERROR run_on_os_thread 
+s3eResult closeSession() S3E_RESULT_ERROR run_on_os_thread
+s3eResult pause() S3E_RESULT_ERROR run_on_os_thread
+s3eResult resume() S3E_RESULT_ERROR run_on_os_thread
+s3eResult event(const char* event_name) S3E_RESULT_ERROR run_on_os_thread
+s3eResult eventWithValue(const char* event_name, int event_value) S3E_RESULT_ERROR run_on_os_thread
+s3eResult loadModule(const char* location_code,const char* userData) S3E_RESULT_ERROR run_on_os_thread
+s3eResult loadModuleToCache(const char* location_code,const char* userData) S3E_RESULT_ERROR run_on_os_thread
+s3eResult destroyModule() S3E_RESULT_ERROR run_on_os_thread
+s3eResult fixAdOrientation(int landscape_portrait_or_auto) S3E_RESULT_ERROR run_on_os_thread

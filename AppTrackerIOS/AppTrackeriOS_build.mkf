@@ -1,0 +1,176 @@
+# mkf file for building extension AppTrackeriOS.
+# NOTE: This file was originally written by the extension builder, but will not
+# be overwritten (unless --force is specified) and is intended to be modified.
+display_name "Extensions/AppTrackeriOS"
+
+includepath source/h
+includepath h
+
+defines
+{
+    #Define the verbose channel to be off by default (but controllable by icf)
+    IW_TRACE_CHANNEL_APPTRACKERIOS_VERBOSE=2
+
+    #This macro indicates that this extension is being built
+    S3E_EXT_APPTRACKERIOS
+}
+
+#This command re-generates the relevant source files from the s4e when
+#the mkb is run
+extension
+{
+    ("$MARMALADE_ROOT/s3e/edk/builder")
+    "edk_build AppTrackeriOS.s4e"
+}
+
+#include the extension builder subproject
+subproject "$MARMALADE_ROOT/s3e/edk"
+
+if {{defined I3D_OS_IPHONE}}
+{
+
+    includepath AppTracker
+    files
+    {
+        ["AppTracker Library"]
+
+        ["source"]
+        (use_first_found, source/iphone, source/generic)
+        AppTrackeriOS_platform.mm
+        #Add any iphone-specific files here
+    }
+}
+
+if {{defined I3D_OS_WINDOWS}}
+{
+    files
+    {
+        
+        ["source"]
+        (use_first_found, source/windows, source/generic)
+        AppTrackeriOS_platform.cpp
+        #Add any windows-specific files here
+    }
+}
+
+if {{defined S3E_ANDROID}}
+{
+    files
+    {
+        
+        ["source"]
+        (use_first_found, source/android, source/generic)
+        AppTrackeriOS_platform.cpp
+        #Add any android-specific files here
+    }
+}
+
+if {{defined I3D_OS_OSX}}
+{
+    includepath AppTracker
+    files
+    {
+        ["AppTracker Library"]
+        (AppTracker)
+        "*.o"
+        
+        ["source"]
+        (use_first_found, source/osx, source/generic)
+        AppTrackeriOS_platform.mm
+        #Add any osx-specific files here
+    }
+}
+
+if {{defined I3D_OS_LINUX and not defined S3E_ANDROID}}
+{
+    files
+    {
+        ["source"]
+        (use_first_found, source/linux, source/generic)
+        AppTrackeriOS_platform.cpp
+        #Add any linux-specific files here
+    }
+}
+
+if {{defined I3D_OS_WP8}}
+{
+    files
+    {
+        ["h"]
+        (source/wp8)
+        AppTrackeriOS_shim.h
+        ["source"]
+        (use_first_found, source/wp8, source/generic)
+        AppTrackeriOS_platform.cpp
+        AppTrackeriOS_shim.cpp
+        #Add any wp8-specific files here
+    }
+}
+
+if {{defined I3D_OS_WS8}}
+{
+    files
+    {
+        ["h"]
+        (source/ws8)
+        AppTrackeriOS_shim.h
+        ["source"]
+        (use_first_found, source/ws8, source/generic)
+        AppTrackeriOS_platform.cpp
+        AppTrackeriOS_shim.cpp
+        #Add any ws8-specific files here
+    }
+}
+
+if {{defined I3D_OS_WS81}}
+{
+    files
+    {
+        ["h"]
+        (source/ws81)
+        AppTrackeriOS_shim.h
+        ["source"]
+        (use_first_found, source/ws81, source/generic)
+        AppTrackeriOS_platform.cpp
+        AppTrackeriOS_shim.cpp
+        #Add any ws81-specific files here
+    }
+}
+
+if {{defined I3D_OS_WP81}}
+{
+    files
+    {
+        ["h"]
+        (source/wp81)
+        AppTrackeriOS_shim.h
+        ["source"]
+        (use_first_found, source/wp81, source/generic)
+        AppTrackeriOS_platform.cpp
+        AppTrackeriOS_shim.cpp
+        #Add any wp81-specific files here
+    }
+}
+
+files
+{
+
+    # Add any platform-independent files here
+    # Note that if the file exists in the platform-specific directory
+    # it will be taken from there instead of 'generic'
+    AppTrackeriOS_register.cpp
+    AppTrackeriOS.cpp
+
+    ["h"]
+    (source/h)
+    AppTrackeriOS_internal.h
+    AppTrackeriOS_autodefs.h
+
+    ["docs"]
+    (interface)
+    AppTrackeriOS.defines.txt
+
+    []
+    (.)
+    AppTrackeriOS.s4e
+}
